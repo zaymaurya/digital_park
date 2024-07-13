@@ -3,18 +3,21 @@ import "../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import pic1 from "../Assets/images/1.png";
+import pic2 from "../Assets/images/2.png";
+import arrow from "../Assets/icons/arrow.svg";
 
 function Service() {
   return (
     <>
       <div className="service">
-        <div className="container">
+        <div className="service-container">
           <div className="row">
-            <div className="portfolio-col-1">
-              <span>What we do</span>
+            <div className="service-col-1">
+              <h3>What we do</h3>
               <h1>Service Provide for You</h1>
             </div>
-            <div className="portfolio-col-2">
+            <div className="service-col-2">
               <p>
                 Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                 Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed
@@ -26,7 +29,7 @@ function Service() {
             <div className="slider">
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/1.png" alt="img" draggable="false" />
+                  <img src={pic1} alt="pic1" draggable="false" />
                 </div>
                 <div className="layer">
                   <img src="Assets/icons/icon.svg" alt="" />
@@ -40,22 +43,17 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />
+                    Read More <img className="arrow" src={arrow} alt="" />
                   </Link>
                 </div>
               </div>
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/2.png" alt="img" draggable="false" />
+                  <img src={pic2} alt="pic2" draggable="false" />
                 </div>
                 <div className="layer">
                   <img src="Assets/icons/icon.svg" alt="" />
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web Development</h3>
                   <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                     Pellentesque
@@ -65,22 +63,17 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />
+                    Read More <img className="arrow" src={arrow} alt="" />
                   </Link>
                 </div>
               </div>
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/1.png" alt="img" draggable="false" />
+                  <img src={pic1} alt="pic1" draggable="false" />
                 </div>
                 <div className="layer">
                   <img src="Assets/icons/icon.svg" alt="" />
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web Development</h3>
                   <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                     Pellentesque
@@ -90,22 +83,17 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />
+                    Read More <img className="arrow" src={arrow} alt="" />
                   </Link>
                 </div>
               </div>
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/1.png" alt="img" draggable="false" />
+                  <img src={pic1} alt="pic1" draggable="false" />
                 </div>
                 <div className="layer">
                   <img src="Assets/icons/icon.svg" alt="" />
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web Development</h3>
                   <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                     Pellentesque
@@ -115,22 +103,17 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />{" "}
+                    Read More <img className="arrow" src={arrow} alt="" />{" "}
                   </Link>
                 </div>
               </div>
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/2.png" alt="img" draggable="false" />
+                  <img src={pic2} alt="pic2" draggable="false" />
                 </div>
                 <div className="layer">
                   <img src="Assets/icons/icon.svg" alt="" />
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web Development</h3>
                   <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                     Pellentesque
@@ -140,22 +123,17 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />
+                    Read More <img className="arrow" src={arrow} alt="" />
                   </Link>
                 </div>
               </div>
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/1.png" alt="img" draggable="false" />
+                  <img src={pic1} alt="pic1" draggable="false" />
                 </div>
                 <div className="layer">
                   <img src="Assets/icons/icon.svg" alt="" />
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web Development</h3>
                   <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                     Pellentesque
@@ -165,22 +143,17 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />
+                    Read More <img className="arrow" src={arrow} alt="" />
                   </Link>
                 </div>
               </div>
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/2.png" alt="img" draggable="false" />
+                  <img src={pic2} alt="pic2" draggable="false" />
                 </div>
                 <div className="layer">
                   <img src="Assets/icons/icon.svg" alt="" />
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web Development</h3>
                   <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                     Pellentesque
@@ -190,24 +163,19 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />
+                    Read More <img className="arrow" src={arrow} alt="" />
                   </Link>
                 </div>
               </div>
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/1.png" alt="img" draggable="false" />
+                  <img src={pic1} alt="pic1" draggable="false" />
                 </div>
                 <div className="layer">
                   {" "}
                   /
                   <img src="Assets/icons/icon.svg" alt="" />
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web Development</h3>
                   <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                     Pellentesque
@@ -217,22 +185,17 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />
+                    Read More <img className="arrow" src={arrow} alt="" />
                   </Link>
                 </div>
               </div>
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/2.png" alt="img" draggable="false" />
+                  <img src={pic2} alt="pic2" draggable="false" />
                 </div>
                 <div className="layer">
                   <img src="Assets/icons/icon.svg" alt="" />
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web Development</h3>
                   <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                     Pellentesque
@@ -242,22 +205,17 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />
+                    Read More <img className="arrow" src={arrow} alt="" />
                   </Link>
                 </div>
               </div>
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/1.png" alt="img" draggable="false" />
+                  <img src={pic1} alt="pic1" draggable="false" />
                 </div>
                 <div className="layer">
                   <img src="Assets/icons/icon.svg" alt="" />
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web Development</h3>
                   <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                     Pellentesque
@@ -267,22 +225,17 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />
+                    Read More <img className="arrow" src={arrow} alt="" />
                   </Link>
                 </div>
               </div>
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/2.png" alt="img" draggable="false" />
+                  <img src={pic2} alt="pic2" draggable="false" />
                 </div>
                 <div className="layer">
                   <img src="Assets/icons/icon.svg" alt="" />
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web Development</h3>
                   <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                     Pellentesque
@@ -292,22 +245,17 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />
+                    Read More <img className="arrow" src={arrow} alt="" />
                   </Link>
                 </div>
               </div>
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/1.png" alt="img" draggable="false" />
+                  <img src={pic1} alt="pic1" draggable="false" />
                 </div>
                 <div className="layer">
                   <img src="Assets/icons/icon.svg" alt="" />
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web Development</h3>
                   <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                     Pellentesque
@@ -317,23 +265,18 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />
+                    Read More <img className="arrow" src={arrow} alt="" />
                   </Link>
                 </div>
               </div>
 
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/1.png" alt="img" draggable="false" />
+                  <img src={pic1} alt="pic1" draggable="false" />
                 </div>
                 <div className="layer">
                   <img src="Assets/icons/icon.svg" alt="" />
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web Development</h3>
                   <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                     Pellentesque
@@ -343,22 +286,17 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />{" "}
+                    Read More <img className="arrow" src={arrow} alt="" />{" "}
                   </Link>
                 </div>
               </div>
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/2.png" alt="img" draggable="false" />
+                  <img src={pic2} alt="pic2" draggable="false" />
                 </div>
                 <div className="layer">
                   <img src="Assets/icons/icon.svg" alt="" />
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web Development</h3>
                   <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                     Pellentesque
@@ -368,22 +306,17 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />
+                    Read More <img className="arrow" src={arrow} alt="" />
                   </Link>
                 </div>
               </div>
               <div className="card">
                 <div className="img">
-                  <img src="Assets/images/1.png" alt="img" draggable="false" />
+                  <img src={pic1} alt="pic1" draggable="false" />
                 </div>
                 <div className="layer">
                   <img src="Assets/icons/icon.svg" alt="" />
-                  <h3>WEB DEVELOPMENT</h3>
+                  <h3>Web Development</h3>
                   <p>
                     Morbi sed lacus nec risus finibus feugiat et fermentum nibh.
                     Pellentesque
@@ -393,12 +326,7 @@ function Service() {
                     target="_blank"
                     to="https://www.fylehq.com/"
                   >
-                    READ MORE{" "}
-                    <img
-                      className="arrow"
-                      src="Assets/icons/arrow.svg"
-                      alt=""
-                    />
+                    Read More <img className="arrow" src={arrow} alt="" />
                   </Link>
                 </div>
               </div>
